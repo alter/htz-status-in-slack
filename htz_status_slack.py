@@ -53,7 +53,7 @@ def send_to_slack(item, slack_webhook, slack_channel):
         color = 'warning'
 
     payload = {
-      'username': 'henzner',
+      'username': 'hetzner',
       'icon_url': '',
       'channel': slack_channel,
       'attachments': [
